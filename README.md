@@ -1,4 +1,4 @@
-# Brute Force Algorithm for Student Pairing
+Student Pairing
 
 Database Schema Design
 Tables
