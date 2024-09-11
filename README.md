@@ -2,21 +2,21 @@
 
 ## Project Overview
 
-This project implements a brute-force algorithm to pair 18 students based on their responsibilities for homework and class. The algorithm generates all possible pairs of students, combines their responsibilities, and stores the results in a Python database.
+This project implements a brute-force algorithm in Python to pair 18 students based on their responsibilities for homework and class. The algorithm generates all possible pairs of students, combines their responsibilities, and prints the results.
 
 ## Features
+- **Python-Based Algorithm**: The algorithm is written in Python and uses itertools to generate all possible pairs.
 - **Brute-Force Pairing**: Generates all possible student pairs and combines their responsibilities.
-- **Optimized Storage**: Stores the paired results efficiently in a table.
+- **Flexible Data Structure**: Easily expandable to accommodate more students or different criteria.
 
+## Requirements
+- Python 3.x
 
-## How to Use
+## How to Run
 
-1. **Create Tables**: 
-   Run the script `create_tables.sql` located in the `SQL/` folder to create the `Students` and `Pairs` tables.
-
+1. Clone the repository to your local machine:
    ```bash
-   psql -d your_database -f SQL/create_tables.sql
-
+   git clone https://github.com/yourusername/brute-force-student-pairing.git
 
 #Algorithm Development (Brute-Force)
 ##Using a brute-force algorithm, we will generate all possible pairs of students. The algorithm will calculate a score based on the pairing criteria and choose the optimal set of pairs.
