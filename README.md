@@ -1,18 +1,22 @@
-Student Pairing
+# Brute-Force Algorithm for Student Pairing
 
-Database Schema Design
-Tables
-Students Table
+## Project Overview
 
-Column Name	Data Type	Description
-student_id	INT (Primary Key, Auto Increment)	Unique ID for each student
-student_name	VARCHAR(100)	Full name of the student
-preference	TEXT	JSON or plain text containing pairing criteria
-paired	BOOLEAN	To indicate if the student is already paired
-Pairs Table
+This project implements a brute-force algorithm to pair 18 students based on their responsibilities for homework and class. The algorithm generates all possible pairs of students, combines their responsibilities, and stores the results in a PostgreSQL database.
 
-Column Name	Data Type	Description
-pair_id	INT (Primary Key, Auto Increment)	Unique ID for each pair
-student_1_id	INT (Foreign Key from Students)	ID of the first student in the pair
-student_2_id	INT (Foreign Key from Students)	ID of the second student in the pair
-compatibility_score	FLOAT	The calculated compatibility score based on the pairing criteria
+## Features
+- **Database Management**: PostgreSQL used to manage students and their pairs.
+- **Brute-Force Pairing**: Generates all possible student pairs and combines their responsibilities.
+- **Optimized Storage**: Stores the paired results efficiently in a table.
+
+## Requirements
+- PostgreSQL
+- pgAdmin or any SQL query interface
+
+## How to Use
+
+1. **Create Tables**: 
+   Run the script `create_tables.sql` located in the `SQL/` folder to create the `Students` and `Pairs` tables.
+
+   ```bash
+   psql -d your_database -f SQL/create_tables.sql
