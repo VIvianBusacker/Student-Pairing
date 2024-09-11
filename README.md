@@ -1,5 +1,5 @@
 <h1>Student Pairing</h1>
-## Project Overview
+##Project Overview
 
 This project implements a brute-force algorithm in Python to pair 18 students based on their responsibilities for homework and class. The algorithm generates all possible pairs of students, combines their responsibilities, and prints the results.
 
