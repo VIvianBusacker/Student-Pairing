@@ -40,5 +40,5 @@ This project implements a brute-force algorithm in Python to pair 18 students ba
 
 
 <p7>Pairs Table</p7>
-![image](https://github.com/user-attachments/assets/3a71dfe1-66a5-4863-852d-1d903cb70251)
+![image](https://github.com/user-attachments/assets/e9f9fd66-1353-462b-95f3-8f769a79d9ae)
 
